@@ -9,3 +9,4 @@ This project is created and maintained by **Generation USA** students:
 - Natalie Inlgis
 - Melvin Irby
 - Habiba Najib
+- Tsion Assefa
