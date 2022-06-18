@@ -2,6 +2,7 @@
 ## Group \#4's bootstrap debrief project
 
 This project is created and maintained by **Generation USA** students:
+- Tsion Assefa
 - D. Cristian Boise
 - Vincent Bradbury
 - Gaoussou Doucoure
@@ -9,4 +10,3 @@ This project is created and maintained by **Generation USA** students:
 - Natalie Inlgis
 - Melvin Irby
 - Habiba Najib
-- Tsion Assefa
