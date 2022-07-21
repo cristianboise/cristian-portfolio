@@ -7,6 +7,49 @@
     <title>Cristian Boise portfolio</title>
     <script src="https://kit.fontawesome.com/cb4bb77614.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+<!-- Test Hero Image -->
+<style>
+    body, html {
+      height: 100%;
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .hero-image {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/code\ wallpaper.jpeg");
+      height: 50%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+    }
+    
+    .hero-text {
+      text-align: center;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+    }
+    
+    .hero-text button {
+      border: none;
+      outline: 0;
+      display: inline-block;
+      padding: 10px 25px;
+      color: black;
+      background-color: #ddd;
+      text-align: center;
+      cursor: pointer;
+    }
+    
+    .hero-text button:hover {
+      background-color: #555;
+      color: white;
+    }
+    </style>
+<!-- End Hero Image Test Section -->
 </head>
 <body>
 
@@ -31,19 +74,32 @@
     </div>
 
     <!-- Top of fold section - Start -->
-    <div class="top-fold vh-100">
-        <div class="container-fluid d-flex justify-content-center" style="background-image: url(images/code\ wallpaper.jpeg); background-repeat: no-repeat; background-size: cover; background-position: center; height: 50%;">
+    <!-- <div class="top-fold vh-100"> -->
+        <!-- <div class="container-fluid d-flex justify-content-center" style="background-image: url(images/code\ wallpaper.jpeg); background-repeat: no-repeat; background-size: cover; background-position: center; height: 50%;">
             <div class="align-middle text-white text-center my-auto rounded bg-dark py-2 px-5">
                 <h1>Cristian Boise</h1>
-                <!-- <p><span>New Orleans, LA</span><span> | </span><span>cboise@gmail.com</span><span> | </span><span>504.908.6896</span></p> -->
                 <h4>Front-End Developer | New Orleans, LA</h4>
                 <div>
                     <a class="text-white fa-brands fa-github fa-2x fa-fade fa-fw" style="--fa-animation-duration: 2s; --fa-fade-opacity: 0.6;"  href="https://github.com/cristianboise" target="_blank"></a>
                     <a class="text-white fa-brands fa-linkedin fa-2x fa-fade fa-fw" style="--fa-animation-duration: 2s; --fa-fade-opacity: 0.6;" href="https://www.linkedin.com/in/cristian-boise-7837417/" target="_blank"></a>
                 </div>
             </div>
-        </div>
+        </div> -->
 
+<!-- Hero Image Test Body -->
+<div class="hero-image">
+    <div class="hero-text">
+      <div class="align-middle text-white text-center my-auto rounded bg-dark py-2 px-5">
+        <h1>Cristian Boise</h1>
+        <h4><span class="text-warning">Front End Developer</span> | New Orleans, LA</h4>
+        <div>
+            <a class="text-white fa-brands fa-github fa-2x fa-fade fa-fw" style="--fa-animation-duration: 2s; --fa-fade-opacity: 0.6; text-decoration: none;"  href="https://github.com/cristianboise" target="_blank"></a>
+            <a class="text-white fa-brands fa-linkedin fa-2x fa-fade fa-fw" style="--fa-animation-duration: 2s; --fa-fade-opacity: 0.6; text-decoration: none" href="https://www.linkedin.com/in/cristian-boise-7837417/" target="_blank"></a>
+        </div>
+    </div>
+    </div>
+  </div>
+<!-- End Hero Image Test Body -->
     <!-- Top of Fold Section - End -->
         <div id="about-me" class="media container-fluid p-5 mt-3 mb-3">
             <img class="align-self-center mr-3 ml-3 mt-5" style="border-radius: 50%;" src="images/Cristian Boise web portrait.jpg" alt="Cristian Boise image">
@@ -52,8 +108,8 @@
               <p>I'm a detail-oriented problem solver with 350+ training hours and experience in web development. I'm organized, experienced, and a productive team player with superior communication skills and a creative approach to project management.</p>
               <p class="mb-0">My experience as a training and team leader has prepared me with the professional skills to excel as a web developer. I believe in writing clean and functional code that works without being fussy. Web designs should never get in the way of the user's experience. I'm focused on building accessible websites and applications that incorporate this "simpler is better" approach.</p>
             </div>
-          </div>
-    </div>
+        </div>
+    <!-- </div> -->
 
 
     <!-- Professional Experience -->
@@ -289,7 +345,7 @@
                 <div class="col-lg-2">
                     <div class="row justify-content-center py-4">
                         <h4>
-                            <a class="text-white fa-brands fa-github fa-fade fa-fw fa-2x" style="--fa-animation-duration: 2s; --fa-fade-opacity: 0.6;"  href="https://github.com/cristianboise" target="_blank"></a><a class="text-white fa-brands fa-linkedin fa-fade fa-fw fa-2x" style="--fa-animation-duration: 2s; --fa-fade-opacity: 0.6;" href="https://www.linkedin.com/in/cristian-boise-7837417/" target="_blank"></a>
+                            <a class="text-white fa-brands fa-github fa-fade fa-fw fa-2x" style="--fa-animation-duration: 2s; --fa-fade-opacity: 0.6; text-decoration: none"  href="https://github.com/cristianboise" target="_blank"></a><a class="text-white fa-brands fa-linkedin fa-fade fa-fw fa-2x" style="--fa-animation-duration: 2s; --fa-fade-opacity: 0.6; text-decoration: none" href="https://www.linkedin.com/in/cristian-boise-7837417/" target="_blank"></a>
                         </h4>
                     </div>
                 </div>
